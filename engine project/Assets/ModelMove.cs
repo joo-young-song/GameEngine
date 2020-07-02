@@ -14,6 +14,8 @@ public class ModelMove : MonoBehaviour
 
     float horizontalMove;
     float verticalMove;
+    float runMove;
+    float jumpMove;
 
     Vector3 movement;
 
@@ -27,20 +29,28 @@ public class ModelMove : MonoBehaviour
     {
         horizontalMove = Input.GetAxisRaw("Horizontal");
         verticalMove = Input.GetAxisRaw("Vertical");
-
-        AnimationUpdate();
+        runMove = Input.GetAxisRaw("Run");
+        jumpMove = Input.GetAxisRaw("Jump");
     }
 
     void FixedUpdate()
     {
         Run(horizontalMove, verticalMove);
         Turn();
+        AnimationUpdate();
     }
 
     void Run(float h, float v)
     {
         movement.Set(h, 0, v);
+
+        if (runMove != 0)
+            speed = speed * 2;
+
         movement = movement.normalized * speed * Time.deltaTime;
+
+        if (runMove != 0)
+            speed = speed / 2;
 
         rigidbody.MovePosition(transform.position + movement);
     }
@@ -61,5 +71,15 @@ public class ModelMove : MonoBehaviour
             animator.SetBool("isWalking", false);
         else
             animator.SetBool("isWalking", true);
+
+        if (runMove == 0)
+            animator.SetBool("isRunning", false);
+        else
+            animator.SetBool("isRunning", true);
+
+        if(jumpMove == 0)
+            animator.SetBool("isJump", false);
+        else
+            animator.SetBool("isJump", true);
     }
 }

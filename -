@@ -1,0 +1,47 @@
+[33mcommit 1b78d42f29c321e8e37cb28d74561aa728e42461[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: rhshrhsh96 <rhshrhsh96@gmail.com>
+Date:   Fri Jul 3 00:39:13 2020 +0900
+
+    방향키 이동에 따라 플레이어 이동 및 방향으로 회전 구현
+
+[33mcommit ce9e4331fb81bdf8ffbde4a310974b81036d076f[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: rhshrhsh96 <rhshrhsh96@gmail.com>
+Date:   Fri Jul 3 00:09:50 2020 +0900
+
+    모델 방향키로 이동 구현
+
+[33mcommit 6e563852827a745c73fb2f8a1f5e5f5d3c8dea1d[m
+Author: rhshrhsh96 <rhshrhsh96@gmail.com>
+Date:   Thu Jul 2 23:48:46 2020 +0900
+
+    모델 변경 + 애니메이션 파일 수정
+
+[33mcommit 5f62a3c86ea68006b46be6a5c0dd0725dea77f84[m
+Author: rhshrhsh96 <rhshrhsh96@gmail.com>
+Date:   Thu Jul 2 22:26:02 2020 +0900
+
+    공 이미지 3종 제작
+
+[33mcommit e791c802ebe34882376cfae1f2cf863c5b44fd3e[m
+Author: rhshrhsh96 <rhshrhsh96@gmail.com>
+Date:   Thu Jul 2 21:49:27 2020 +0900
+
+    공 모델 제작 꽃 무늬 알비도맵 노말맵 제작
+
+[33mcommit dfe9b5654e22aceba4ca15cf8356775c36a0e6b1[m
+Author: rhshrhsh96 <rhshrhsh96@gmail.com>
+Date:   Thu Jul 2 21:22:30 2020 +0900
+
+    모델 이미지 추가 fbx 파일 변경
+
+[33mcommit d00e248978fcdb609cc7aff8d1b1960b37e1668c[m
+Author: rhshrhsh96 <rhshrhsh96@gmail.com>
+Date:   Thu Jul 2 21:15:48 2020 +0900
+
+    캐릭터 모델 1개 애니메이션 4개 추가
+
+[33mcommit 5e0bec05828fa4c3655c5756f82b03591401951c[m
+Author: rhshrhsh96 <rhshrhsh96@gmail.com>
+Date:   Wed Jul 1 22:44:27 2020 +0900
+
+    Start

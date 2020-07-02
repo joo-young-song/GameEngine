@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - BallShootPoint0
+  - BallShootPoint1
+  - BallShootPoint2
+  - BallShootPoint3
   layers:
   - Default
   - TransparentFX
