@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 1645012919103530509}
   - component: {fileID: -1268466355850343794}
   - component: {fileID: -8563128464003227221}
+  - component: {fileID: 7943618009639373181}
+  - component: {fileID: -8752916563018864300}
   m_Layer: 0
   m_Name: SMILE_BALL
   m_TagString: Untagged
@@ -91,7 +93,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -104,9 +106,33 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1074271807722885841}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: a93399fc96aceb546b5710387d1b0cf5, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 1.1088902
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7943618009639373181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1074271807722885841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 224651297f5ce87479030907285eeeaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-8752916563018864300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1074271807722885841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc721f717469f26499e0eddd37f73ade, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

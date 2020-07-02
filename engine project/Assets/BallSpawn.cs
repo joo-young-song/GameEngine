@@ -13,9 +13,8 @@ public class BallSpawn : MonoBehaviour
 
     void Start()
     {
-       
         InvokeRepeating("BallShoot", 0, 5);
-                 
+        Invoke("CancelRepeat", 51);
     }
 
     void BallShoot()
@@ -26,6 +25,11 @@ public class BallSpawn : MonoBehaviour
 
         Rigidbody rigidbody = instantItem.GetComponent<Rigidbody>();
         rigidbody.AddForce(-(shootingDegree * ball_speed), ForceMode.Impulse);
+    }
+
+    void CancelRepeat()
+    {
+        CancelInvoke("BallShoot");
     }
 
 }
